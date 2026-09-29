@@ -13,9 +13,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     margin: 15px auto 0 auto;
     color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
 }
 
 #nav-links {
@@ -31,10 +34,13 @@ nav {
 }
 
 header {
-    width: 1200px;
+    max-width: 1200px;
     margin:  75px auto 75px;
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
 }
 
 h1 {
@@ -51,7 +57,7 @@ h2{
 }
 
 #header-content {
-  width: 630px;
+  max-width: 630px;
 }
 
 #subtitle {
@@ -76,8 +82,11 @@ h2{
 }
 
 #blog-content {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
 }
 
 #articles {
@@ -108,11 +117,15 @@ h2{
     width: 543px;
     padding: 10px 20px;
     box-sizing: border-box;
+    max-width: 48%;
 }
 
 #projets-content {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
 }
 
 .projet {
@@ -167,8 +180,11 @@ h2{
 /*************/
 
 #contact {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box; 
 }
 
 #contact-content {
@@ -249,4 +265,61 @@ footer {
 #copyright {
     font-size: 14px;
     font-weight: 400;
+}
+
+
+#hdr-photo-mobile {
+    display: none;
+    text-align: center;
+    margin: auto;
+}
+#hdr-photo {
+    display:initial;
+}
+#nav-links-mobile {
+    display: none;
+}
+@media(max-width: 700px) {
+    #articles {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .article-blog {
+        max-width:none;
+        width: 100%;
+    }
+    .date-categorie {
+        gap: 5px;
+    }
+    .projet {
+        flex-direction: column;
+    }
+    .project-image {
+        width: 100%;
+    }
+    #coordonnees {
+        display: none;
+    }
+/**TEST**/
+    body {
+    }
+    #nav-links {
+        display:none;
+    }
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    #hdr-photo {
+        display:none;
+    }
+    #hdr-photo-mobile {
+        display:initial;
+    }
+    #nav-links-mobile {
+        display: block;
+    }
+    .projet-foot {
+        display: none;
+    }
 }
