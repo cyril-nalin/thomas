@@ -1,7 +1,21 @@
+body {
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+    color: #21243D;
+}
+
+.logo-site {
+    font-size: 32px;
+    font-weight: 800;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1200px;
+    margin: 15px auto 0 auto;
+    color: black;
 }
 
 #nav-links {
@@ -12,5 +26,227 @@ nav {
 .nav-link {
     color: #000000;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header {
+    width: 1200px;
+    margin:  75px auto 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #21243D;
+    padding-top: 20px;
+}
+
+#header-content {
+  width: 630px;
+}
+
+#subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 35px 0;
+}
+
+#button-cv {
+    background-color: #FF6464;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+#blog {
+    background-color: #EDF7FA;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+}
+
+#blog-content {
+    width: 1200px;
+    margin: auto;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-title {
+    font-size: 26px;
+}
+
+.date-categorie {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 25px;
+}
+
+.article-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.article-blog {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 543px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#projets-content {
+    width: 1200px;
+    margin: auto;
+}
+
+.projet {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+
+    justify-content: space-between;
+}
+
+.project-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top:0 0 15px 0;
+}
+
+.date-type {
+    display: flex;
+    gap: 25px;
+}
+
+.projet-date {
+    background-color: #142850;
+    border-radius: 16px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+}
+
+.projet-type {
+    font-size: 20px;
+    color: #8695A4;
+/*Ajout perso*/
+    margin-left: 20px;
+/*************/
+}
+
+.projet-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*Ajout perso*/
+.projet-foot {
+    width: 858px;
+    border-top: 2px solid #E0E0E0;
+    margin-bottom: 20px;
+}
+/*************/
+
+#contact {
+    width: 1200px;
+    margin: auto;
+}
+
+#contact-content {
+    display: flex;
+    color: black;
+    gap: 40px;
+}
+
+#coordonnees {
+    flex:1;
+}
+.contact-title2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.contact-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-intro {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#email, .socials-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input, select, textarea {
+    background-color: #f7f7f7;
+    border: none;
+    height: 46px;
+}
+
+#message {
+    height:165px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 56px;
+
+
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", "Heebo", sans-serif;
+}
+
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#socials-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#copyright {
+    font-size: 14px;
+    font-weight: 400;
 }
