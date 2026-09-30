@@ -6,10 +6,14 @@ BeThom est un site web créé pour Thomas qui souhaite devenir graphiste en free
 
 Emeric (coursenia) / Nalin Cyril
 
-## Installation
+## Technologies utilisées
 
 HTML — structure et contenu de la page web  
 CSS — mise en forme et présentation de la page
+
+## Polices utilisées
+
+Heebo, Poppins (Google Fonts)
 
 ## Installation
 
