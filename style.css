@@ -1,9 +1,29 @@
+/**
+Feuille de style pour la page index.html
+Les styles commentés "Ajout Perso" ne sont pas présent dans la vidéo mais me semble plus correspondant à la maquette
+*/
+
+
 body {
     font-family: "Heebo", sans-serif;
     margin: 0;
     color: #21243D;
 }
 
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
+h2{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+/* Logo et navigation sur le site */
 .logo-site {
     font-size: 32px;
     font-weight: 800;
@@ -37,6 +57,7 @@ nav {
     display: none;
 }
 
+/* Présentation, en haut de page */
 header {
     max-width: 1200px;
     margin:  75px auto 75px;
@@ -45,19 +66,6 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box; 
-}
-
-h1 {
-    font-size: 44px;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-h2{
-    font-size: 22px;
-    font-weight: 400;
-    color: #21243D;
-    padding-top: 20px;
 }
 
 #header-content {
@@ -79,6 +87,7 @@ h2{
     border-radius: 2px;
 }
 
+/* Articles récents */
 #blog {
     background-color: #EDF7FA;
     margin-bottom: 35px;
@@ -124,6 +133,8 @@ h2{
     max-width: 48%;
 }
 
+/* Travaux / Projets mis en avant */
+
 #projets-content {
     max-width: 1200px;
     margin: auto;
@@ -143,7 +154,7 @@ h2{
 .project-title {
     font-size: 30px;
     font-weight: 700;
-    margin-top:0 0 15px 0;
+    margin:0 0 15px 0;
 }
 
 .date-type {
@@ -183,6 +194,8 @@ h2{
 }
 /*************/
 
+
+/* Contacts */
 #contact {
     max-width: 1200px;
     margin: auto;
@@ -220,6 +233,7 @@ h2{
     font-weight: 400;
 }
 
+/* Formulaire de demande */
 form {
     display: flex;
     flex-direction: column;
@@ -253,7 +267,7 @@ button {
     font-family: "Poppins", "Heebo", sans-serif;
 }
 
-
+/* Pied de page */
 footer {
     padding-top: 100px;
     text-align: center;
@@ -271,6 +285,7 @@ footer {
     font-weight: 400;
 }
 
+/* Règles CSS responsive */
 @media(max-width: 700px) {
     h2 {
         text-align: center;
